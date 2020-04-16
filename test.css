@@ -1,41 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title> Keith the QB </title>
-    <link rel="stylesheet"  type="text/css" href="test.css" />
-    <link href="http://fonts.googleapis.com/css?family=passion+one" rel='stylesheet'    type='text/css'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
-</body>
-    <div id="header">
-        <div id="header">width: 500px;margin-left:</div>auto;  margin-right:auto;margin-bottom:10px;border:solid 8px black;
-        <h1> Keith the QB </h1>
-    </div>
+<body>
+    <style>
+p.a {
+  font: 15px Arial, sans-serif;
+}
 
-    <div id = "LeftNav">
-        <h3 class = "titles"> My Favorite WEvsites </h3>
-        <ul>
-            <li> <a href="https://www.amazon.com/"> Amazon</a></li>
-            <li> <a href="https://www.microsoft.com/en-us/"> Microsoft</a></li>
-            <li> <a href="https://www.supremenewyork.com/"> Supreme</a></li>
-            <li> <a href="https://www.youtube.com/> Youtube>/a> </li>
-            <li> <a href="https://www.espn.com/"> ESPN</a></li>
-        <ul>
-        <img src="icon.gif" width= "350px" height="200px">
-    </div> 
-    <div id= "Content">
-        <p> This is Keith Price's number one Fan Site! He is a good leader, wins games, throws awesome passes, he plays Quarterbackfor the University of Washington Huskies Football team. Huskies have bee on point this season with a starting record of 4-0. br /> <span id="bow".Bow Down to Washington!! </span> </p>
-        <img src="price.jpg">
-    </div>
+p.b {
+  font: italic small-caps bold 12px/30px Georgia, serif;
+}
+</style>
+</head>
+<body>
 
-    <div id="Footer"
-        <h3 class= "titles">Connect with Me Online: </h3>
-        <ul>
-            <li><a href="https://www.Facebook.com"> Facebook</a></li>
-            <li><a href="https://Linkedin.com"> Linkedin</a></li>
-            <li><a href="https://www.Spotify.com"> Spotify</a></li>
-        </ul>
-        <p>Copyright of Keith the QB</p>
-    </div>
+<h1>The font Property</h1>
+
+<p class="a">This is a paragraph. The font size is set to 15 pixels, and the font family is Arial.</p>
+
+<p class="b">This is a paragraph. The font is set to italic and bold, with small-caps (all lowercase letters are converted to uppercase). The font size is set to 12 pixels, the line height is set to 30 pixels, and the font family is Georgia.</p>
+
+
+<img src="icon.gif" style= "height:200px; width:350px"/>
+<img src="price.jpg">
 </body>
 </html>
-
