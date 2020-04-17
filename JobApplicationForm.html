@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Job Application</title>
 	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+	
 </head>
 <body>
 <div class="container">
@@ -173,6 +174,7 @@
 				</div>
 			</div>
 		</div>
+
 		<div class="form-group row">
 			<label class="col-sm-12 control-label">Hours available</label>
 			<div class="col-sm-12">
@@ -211,7 +213,10 @@
 			</div>
 		</div>
 	</fieldset>
-
+	<button type="button"
+	onclick="document.getElementById('demo').innerHTML = Date()">
+	Click me to display Date and Time.</button>
+	<p id="demo"></p>
 	<p>&nbsp;</p>
 
 	<fieldset>
@@ -224,14 +229,17 @@
 			<label class="control-label">Describe a recent project</label>
 			<textarea class="form-control" name="project" rows="6"></textarea>
 		</div>
+		<p><b>We are located here!</b></p>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2687.4972870156525!2d-122.30570858400851!3d47.65533507918784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549014929d8535eb%3A0x6b742c7901b82ba3!2sUniversity%20of%20Washington!5e0!3m2!1sen!2sus!4v1587084903271!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+		
 	</fieldset>
 
 	<p>&nbsp;</p>
+	
 
 	<input class="btn btn-primary btn-lg" type="submit" value="Submit form">
 
 	<p>&nbsp;</p>
-
 </form>
 </div><!-- close .container -->
 </body>
